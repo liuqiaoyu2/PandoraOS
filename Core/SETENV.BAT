@@ -1,0 +1,3 @@
+@for %%i in (%0) do set PROJDIR=%%~dpi
+set NASMENV=!-s!-i%PROJDIR%INCLUDE\!-i%PROJDIR%PROC16\!-i%PROJDIR%BOOT\OUT\
+echo NASMENV=%NASMENV%
